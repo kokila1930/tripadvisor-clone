@@ -1,0 +1,216 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'gabarito', sans-serif;
+}
+.navbar-1{
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid black 1px;
+    border: none;
+    align-items: center;
+    position: sticky;
+    top:0;
+    background-color: black;
+    z-index: 1;
+}
+.logo h1{
+    color: lawngreen;
+}
+.navbar-1 h3{
+    padding: 10px;
+    font-size: x-large;
+    cursor: pointer;
+}
+.navbar-1 h3:hover{
+    color: lawngreen;   
+}
+.navbar-1 button{
+    padding: 10px;
+    border-radius: 50px;
+    font-size: larger;
+    cursor: pointer;
+}
+.navbar-1 button:hover{
+        background-color: greenyellow;
+        color: black;
+}
+.menubar{
+    position: relative;
+    cursor: pointer;
+}
+.menubarpopup{
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-size: medium;
+    border: solid black 1px;
+    width: 100px;
+    top:150px;
+    padding: 20px;
+    right: 0;
+    display: none;   
+}
+.menubar:hover{
+    color: lawngreen;
+}
+.h1{
+    padding: 20px;
+    margin: 10px;
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.search{
+    padding: 20px;
+    margin: 10px;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.search h4:hover{
+    border-bottom: solid greenyellow 5px;
+}
+.bar{
+    padding: 10px;
+    margin: 20px;
+    width: 95%;
+    border: solid 1px;
+    border-radius:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 1;
+}
+.input{
+    width: 60%;
+}
+.bar input{
+    border: none;
+    font-size:16px;
+    width: 90%;
+    border: transparent;
+}
+.bar input:focus{
+    outline: none;
+}
+.bar button{
+    padding: 5px;
+    border-radius: 50px;
+    background-color: greenyellow;
+    font-size: larger;
+}
+.home-img img{
+    padding: 20px;
+    width:96%;
+}
+.p{
+    padding: 20px;
+    margin: 10px;
+    font-size: xx-large;
+    flex-wrap: wrap;
+}
+.destinations{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.destinations h2{
+    cursor: pointer;
+}
+.destinations h2:hover{
+    color: lawngreen;
+}
+h1{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.top-rated{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    gap:5%;
+    flex-wrap: wrap;
+}
+.package{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    gap:5%;
+    flex-wrap: wrap;
+}
+.creators{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    gap:5%;
+    flex-wrap: wrap;
+}
+.thank-you img{
+    padding: 20px;
+    width: 96%;
+}
+.about{
+    padding: 20px;
+    margin: 10px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:800px){
+    body{
+        font-size: 10px;       
+    }
+}
+@media(max-width:600px){
+    .search{
+        display: none;
+    }
+    .button__2{
+        display: none;
+    }
+    .navbar-1 h3{
+        display: none;
+    }
+    .navbar-1{
+        display: inline-flexbox;
+    }
+    .bar{
+        display: none;
+    }
+    .destinations,.package,.top-rated,.creators{
+        padding: 100px;
+        font-size: x-large;
+    }
+    h1{
+        font-size: xx-large;
+    }
+
+}
+    
+
+
+    
+
+    
+

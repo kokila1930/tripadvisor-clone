@@ -24,3 +24,4 @@ Responsive Design: Mobile-friendly design to ensure a smooth experience on all d
 Technologies Used:
 
 Frontend: HTML, CSS
+ link: https://kokila1930.github.io/tripadvisor-clone/
